@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat;
+}
+
+#header {
+	width: 400px;
+}
+
+#headnav {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+#headnav label{
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	z-index: 5;
+}
+
+header {
+	position: relative;
+}
+
+header h1 a{
+	position: relative;
+}
+
+
+h1 {
+	position: absolute;
+	left: 10px;
+	top:0;
+	/*left: 50%;
+	transform: translateX(-50%);*/
+}
+
+#page {
+	width: 100%;
+	font-family:"Inter", sans-serif;
+	background-color: #fff;
+	max-width: 400px;	
+	min-width: 320px;	
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 1rem;
+	font-style: normal;
+		/*outline: solid 1px blue;*/
+}
+
+nav input[type="checkbox"]{
+	display: none;
+}
+
+
+h2 {
+	margin: 20px 0  30px 0;
+	text-align: center;
+}
+
+nav ul {
+	display: none;
+	position: fixed;
+	top: 0;
+	padding-top: 50px;
+	background-color: rgba(0,0,0,0.7);
+	width: 400px;
+	z-index: 1;
+	/*outline: 1px solid red;*/
+}
+
+nav {
+	width: 400px;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	line-height: 4.5;
+	border-right: 1px #fff solid;
+	/*outline: 1px solid red;*/
+	padding:10px 0 10px 0;
+}
+
+nav ul li img {
+	/*outline: 1px solid red;*/
+	vertical-align: middle;
+}
+nav ul li a:hover{
+	background:#B9FFB3;
+}
+
+#menu:checked ~ ul{
+	display:block;
+}
+
+
+
+footer ul li a{
+	color: black;
+}
+footer li {
+	display: block;
+	text-align: center;
+	/*outline: solid 1px red;*/
+	line-height: 1.7;
+	text-decoration: none;
+}
+
+footer li+li::before {
+	content: none;
+	
+}
+
+
+footer ul li a:hover{
+	text-decoration: underline;
+	/*color: var(--color-wh);*/
+}
+
+footer p{
+	text-align: center;
+	margin-top: 10px;
+}
+
+hr {
+	width: 320px;
+	text-align: center;
+}
+
+
+footer {
+	margin-top: 70px;
+}
+
+footer .insta{
+	text-align: center;
+	display: block;
+	/*outline: solid 1px red;*/
+}
+

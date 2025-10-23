@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+header {
+	height: 70px;
+}
+
+
+main dl {
+	margin-top: 20px;
+	margin-left: 42.6px;
+	float: left;
+	/*outline: 1px solid red;*/
+}
+
+main p{
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 5px 40px 5px 40px;	/*outline: 1px solid red;*/
+	line-height: 1.7;
+
+}
+
+main {
+	display: flow-root;
+}
+
+footer {
+	margin-top: 70px;
+	/*outline: 1px solid red;*/
+}
